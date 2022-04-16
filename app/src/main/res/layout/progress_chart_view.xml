@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CustomView">
+    tools:context=".progressChart.ProgressChart">
 
-    <com.example.prm_cwiczenia.CustomView
+    <com.example.prm_cwiczenia.progressChart.ProgressChart
         android:id="@+id/customView2"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:leftpadding="50"
@@ -17,5 +17,12 @@
         app:toppadding="40"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="7dp" />
+
+    <com.example.prm_cwiczenia.progressChart.ProgressChart
+        android:id="@+id/progressChart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="220dp"
+        tools:layout_editor_absoluteY="226dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
